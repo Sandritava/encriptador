@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Challenge Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
+    
+</head>
+<body>
+    <header>    
+    <img src="imagenes/logo.png" alt="Logo de Alura" class="logo">
+    </header>
+    
+    <div class="container">
+                       
+            <div class="right">
+                <p class="derechos"> Diseñado por Sandra Valerio</p>;
+                <img src="imagenes/muneco.png" alt="muneco" id="muneco">
+                <h4 id="texto">Ningun mensaje fue encontrado</h4>
+                <textarea class="textDer" id="textoDerecha" name="name" rows="3" cols="80" placeholder="Ingrese "> </textarea>
+                
+                <button type="button" id="copiando" onclick="clipboard()"> Copiar!</button>
+            </div>
+            
+            
+
+            <div class="left">
+                
+                <textarea class="text-input" id="inputTexto" rows="6" cols="80" placeholder="Ingrese el texto aqui"></textarea>
+                
+            </div>
+            
+            <div class="botones">
+                
+                <p class="minusculas"> <img src="imagenes/importante.png" alt="signo de exclamacion" id="importante">  sólo minusculas y sin acentos</p>
+            
+                <button type="button" id="boton-encriptar" onclick="encriptar()">Encriptar</button>
+                <button type="button" id="boton-desencriptar" onclick="desencriptar()">Desencriptar</button>
+            </div>
+        
+        </div>
+     
+</body>
+</html>

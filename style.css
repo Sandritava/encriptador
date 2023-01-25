@@ -1,0 +1,152 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(rgb(169, 250, 250),rgb(94, 207, 213), rgb(38, 161, 167));
+    height: 590px;
+}
+.container{
+    width: 940px;
+    height: 560px;
+    margin: 0 auto;
+}
+.logo{
+    float:left;
+    padding-top: 2%;
+}
+.text-input{
+    float: left;
+    border-radius: 24px;
+    padding: 4%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    margin-left: 5%;
+    margin-top: 25%;
+    width: 80%;
+    height: 90%;
+    color: #0A3871;
+    border: none;
+    outline: none;
+    cursor: text;
+    background-color:#F3F5FC;
+}
+::placeholder{ color: #0A3871;}
+
+.left{
+    float:left;
+    width: 65%;
+    height: auto;
+    border-radius: 24px;
+}
+.right{
+    float: right;
+    margin-top: 15px;
+    width: 29%;
+    height: auto;
+    border-radius: 24px;
+    border-style: dashed;
+    border-color: #0A3871;
+    border-width: 2px;
+    background: #F3F5FC;
+    box-shadow: 10px 10px 5px rgb(36, 35, 35);    
+}
+.botones{
+    float:left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+    margin-top: 5%;
+}
+.minusculas{
+    font-size: 12px;
+    font-weight:bold;
+    color: #0A3871;
+    margin-bottom: 3%;
+    margin-left: 10%;
+}
+.derechos{
+    font-size: 12px;
+    font-weight:bolder;
+    color: rgb(201, 34, 143);
+    margin-left: 20%;
+    margin-top: 20px;
+   
+}
+
+#importante{
+    float: left;
+    width: 2%;
+    margin-right: 5px;    
+}
+#placeholder{
+    color: #0A3871;
+}
+#muneco{
+    margin-top: 45px;
+    width: 100%;
+    align-items: center;
+        
+}
+#texto{
+    margin-left: 3%;
+    margin-right: 3%;
+    color: #0A3871;
+    font-size: 120%;
+    font-weight: bolder;
+    text-align: center;
+    padding: 5%;
+}
+#textoDerecha{
+    float: left;
+    width: 90%;
+    height: 100%;
+    font-size: auto;
+    background-color: #F3F5FC;
+    color: #0A3871;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 10%;    
+    padding-top: 20%;
+}
+#boton-encriptar{
+    padding: 15px;
+    width: 250px;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 5%;
+    font-size: 16px;
+    color: #F3F5FC;
+    background-color: #0A3871;
+    border-color: #0A3871;
+    cursor: pointer;
+    box-shadow: 10px 10px 5px rgb(36, 35, 35);;
+}
+#boton-desencriptar{
+    padding: 15px;
+    width: 250px;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 3%;
+    font-size: 16px;
+    color: #0A3871;
+    border-color: #0A3871;
+    cursor: pointer;
+    box-shadow: 10px 10px 5px rgb(36, 35, 35);;
+}
+#copiando{
+    padding: 14px;
+    width: 70%;
+    height: 10%;
+    border-radius: 24px;
+    margin-top: 30%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+    font-size: 16px;
+    color: #0A3871;
+    border-color: #0A3871;
+    background: rgb(169, 250, 250);
+    display: none;
+    cursor: pointer;
+}
